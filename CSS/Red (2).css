@@ -1088,3 +1088,43 @@ button {
     justify-content: center;
 }
 
+
+
+
+
+
+
+
+#contact{
+    padding: 100px 0;
+    min-height: 100vh;
+    background-image: url(/assets/images/grid.png);
+    background-size: contain;
+}
+
+.contact-form{
+    padding: 35px;
+    border-radius: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 0 1px 0 rgba(144, 81, 227, .5), 0 0 0.5px 0.5px rgba(141, 53, 229, .336);
+    -webkit-box-shadow: 0 0 1px 0 rgba(144, 81, 227, .5), 0 0 0.5px 0.5px rgba(141, 53, 229, .336);
+}
+
+.contact-form .form-control{
+    padding: 0.775rem 1.05rem;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.contact-form .form-control:focus{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: #850dd5;
+}
+
+.contact-form .btn{
+    background-color: #850dd5;
+}
